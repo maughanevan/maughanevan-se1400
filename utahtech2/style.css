@@ -22,7 +22,8 @@ body {
   }
   h3 {
     color: #003058;
-    font-family: Verdana;
+    font-family: Verdana
+    line-height: .9;
   }
   .ut {
     color: #BA1C21;
