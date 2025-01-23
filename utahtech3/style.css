@@ -43,3 +43,10 @@ dd{
     margin-right: auto;
     margin-left: auto;
   }  
+  #homehero {
+    height: 300px;  // Adjust the height as necessary
+    background-image: url('path_to_your_image/homehero.jpg');  // Ensure the path is correct
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
