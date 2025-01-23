@@ -23,7 +23,12 @@ body {
   h3 {
     color: #003058;
     font-family: Verdana;
+    line-height: 0%;
   }
+dd{
+  line-height: 140%;
+  word-wrap: break-word;
+}
   .ut {
     color: #BA1C21;
     font-weight: bold;
