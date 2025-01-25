@@ -16,8 +16,8 @@ header h1 {
 }
 
 nav {
-  font-weight: bold;
-  background-color: #F3F3F3;
+  font-weight: bold;  
+  line-height: 250% 
 }
 
 h2 {
@@ -52,19 +52,22 @@ footer {
   margin-right: auto;
   margin-left: auto;
 }
+
 #homehero {
-  background-image: url('path_to_your_image/homehero.jpg');
+  background-image: url(homehero.jpg);
   background-position: center;
   height: 300px;
 }
+
 #studenthero {
-  background-image: url('path_to_your_image/studenthero.jpg');
+  background-image: url(studenthero.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
 }
+
 #facultyhero {
-  background-image: url('path_to_your_image/facultyhero.jpg');
+  background-image: url(facultyhero.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
