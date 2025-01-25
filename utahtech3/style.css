@@ -1,76 +1,71 @@
 body {
-  background-color: #FFFFFF;
-  color: #666666;
-  font-family: Verdana;
-}
-
-header {
-  background-color: #003058;
-  color: #FFFFFF;
-  font-family: Georgia;
-}
-
-header h1 {
-  line-height: 140%;
-  padding: 0.5rem;
-}
-
-nav {
-  font-weight: bold;
-  line-height: 250%;
-}
-
-h2 {
-  color: #424242;
-  font-family: Georgia;
-}
-
-h3 {
-  color: #003058;
-  font-family: Verdana;
-  line-height: 0%;
-}
-
-dd {
-  line-height: 140%;
-  word-wrap: break-word;
-}
-
-.ut {
-  color: #BA1C21;
-  font-weight: bold;
-}
-
-footer {
-  font-size: 0.70rem;
-  text-align: center;
-  font-style: italic;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
 #wrapper {
   width: 80%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+  color: #003366;
 }
 
-#homehero {
-  height: 300px;
-  background-image: url('homehero.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+nav {
+  background-color: #003366;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+main {
+  padding: 20px;
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
 }
 #studenthero {
   height: 300px;
-  background-image: url('studenthero.jpg');
+  background-image: url('path_to_your_image/studenthero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#facultyhero {
+/* Adjust the hero image path as necessary */
+#facultyhero, #alumnihero, #studenthero {
   height: 300px;
-  background-image: url('facultyhero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#facultyhero {
+  background-image: url('path_to_your_image/facultyhero.jpg');
+}
+
+#alumnihero {
+  background-image: url('path_to_your_image/alumnihero.jpg');
 }
