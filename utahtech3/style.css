@@ -53,7 +53,19 @@ footer {
   margin-left: auto;
 }
 #homehero {
-  background-image: url('path/to/homehero.jpg');
+  background-image: url('path_to_your_image/homehero.jpg');
+  background-position: center;
+  height: 300px;
+}
+#studenthero {
+  background-image: url('path_to_your_image/studenthero.jpg');
   background-size: cover;
   background-position: center;
+  height: 300px;
+}
+#facultyhero {
+  background-image: url('path_to_your_image/facultyhero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
